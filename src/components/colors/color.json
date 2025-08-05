@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_colors_colors",
+  "info": {
+    "displayName": "color",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    }
+  },
+  "config": {}
+}
